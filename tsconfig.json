@@ -27,6 +27,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx", "src/ui/components/common/checkbox",
+    "src/types/env.d.ts",
   ],
   "exclude": [
     "node_modules"
