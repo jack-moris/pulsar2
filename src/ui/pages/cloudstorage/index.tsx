@@ -21,7 +21,7 @@ export default function ServersPage() {
       </PageHeader>
       <IPAddressesMainContent>
         <IPAddressesHeader>
-          <SearchComponent />
+          {/*<SearchComponent />*/}
           <IPAllocateButton className='button-secondary'>
             <ShoppingBagIcon stroke={Color.$white} />
             Buy Storage

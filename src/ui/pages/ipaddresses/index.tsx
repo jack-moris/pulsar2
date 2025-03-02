@@ -29,11 +29,14 @@ export default function ServersPage() {
       </PageHeader>
       <IPAddressesMainContent>
         <IPAddressesHeader>
-          <SearchComponent 
+          {/*
+             <SearchComponent 
             value={searchQuery}
             onChange={handleSearchChange}
             placeholder="Search IP addresses..."
           />
+          */}
+
           <IPAllocateButton className='button-secondary'>
             <ShoppingBagIcon stroke={Color.$white} />
             <label>Allocate additional IPs</label>

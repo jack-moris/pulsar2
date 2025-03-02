@@ -15,7 +15,10 @@ export default function ServersPage() {
       </PageHeader>
       <ServersMainContent>
         <ServersHeader>
+          { /*
           <SearchComponent />
+          */
+          }
           <BuyServerButton className='button-secondary'>
             <ShoppingBagIcon stroke={Color.$white} />Buy Server</BuyServerButton>
         </ServersHeader>

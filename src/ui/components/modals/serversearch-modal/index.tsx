@@ -43,7 +43,7 @@ const ServerSearchModal = ({ isOpen, closeModal }: ModalProps) => {
         </Header>
         <hr />
         <SearchDiv>
-          <SearchComponent />
+          {/* <SearchComponent />*/}
         </SearchDiv>
 
         <Body>
