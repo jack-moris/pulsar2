@@ -44,7 +44,6 @@ const CheckoutForm: React.FC = () => {
       });
 
       const session = await response.json();
-      alert("!!");
       // 重新導向到 Stripe Checkout
       const result = await stripe.redirectToCheckout({
         sessionId: session.id,
@@ -54,9 +53,6 @@ const CheckoutForm: React.FC = () => {
       if (result.error) {
         console.error(result.error.message);
         alert('Error processing payment: ' + result.error.message);
-      }else{
-        console.log("success!");
-        alert("success!");
       }
 
     } catch (error) {
